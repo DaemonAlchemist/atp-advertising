@@ -3,11 +3,11 @@
 return array(
 	'admin' => array(
 		'models' =>array(
-			'atpadvertising_adsense' => array(
+			'atpadvertising_adsense_ad' => array(
 				'displayName' => 'Adsense Ad',
-				'class' => 'ATPAdvertising\Model\Adsense',
+				'class' => 'ATPAdvertising\Model\AdsenseAd',
 				'category' => 'Advertising',
-				'displayColumns' => array('Name', 'Publisher', 'AdId'),
+				'displayColumns' => array('Identifier', 'Publisher', 'AdId'),
 				'defaultOrder' => 'name ASC',
 			),
 		),
