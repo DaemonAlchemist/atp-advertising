@@ -11,10 +11,10 @@ class Adsense extends \ATP\View\Helper
 		
 		return "
 			<ins class=\"adsbygoogle\"
-				 style=\"display:inline-block;\"
-				 data-format=\"auto\"
+			     style=\"display:block\"
 				 data-ad-client=\"{$ad->publisher}\"
-				 data-ad-slot=\"{$ad->adId}\"></ins>
+				 data-ad-slot=\"{$ad->adId}\"
+ 				 data-ad-format=\"auto\"></ins>
 			<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
